@@ -1,0 +1,3 @@
+﻿sample,group,bam,index
+AOCS_001,normal,/exports/igmm/eddie/mtdna/pipelines/mtRtN3/example/AOCS_001_NormalBlood-ready_subset.bam,/exports/igmm/eddie/mtdna/pipelines/mtRtN3/example/AOCS_001_NormalBlood-ready_subset.bam.bai
+AOCS_001,tumour,/exports/igmm/eddie/mtdna/pipelines/mtRtN3/example/AOCS_001_PrimaryTumour-ready_subset.bam,/exports/igmm/eddie/mtdna/pipelines/mtRtN3/example/AOCS_001_PrimaryTumour-ready_subset.bam.bai
