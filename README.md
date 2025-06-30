@@ -65,7 +65,7 @@ nextflow run main.nf -profile eddie,singularity \
   ## Main settings
   --input path/to/input/parameters/file.csv \         # input parameters file (see step 4)
   --outdir path/to/out/directory/ \                   # where should the results folder be created? default: run directory
-  --workflows variantcalling,cn,depths \              # which workflows should be run? default: variancalling,cn,depths
+  --workflows variant-calling,cn,depths \              # which workflows should be run? default: variant-calling,cn,depths
   --contig rCRS \                                     # in your bam file, how is the mitochondrial DNA contig denoted? default: rCRS 
   --fasta path/to/mtdna/reference.fa                  # path to mtDNA reference fasta file. Note that the mtDNA contig name in the reference file should match that used in your bam file. default: ./misc/rCRS.fa 
   --matched (true / false) \                          # are the samples matched? default: true
